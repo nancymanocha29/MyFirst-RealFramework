@@ -6,7 +6,7 @@ def test_check_CustomerIDNull():
     df = pd.read_csv("Customer.csv")
     check_null= df.isnull().sum()
 
-    assert check_null==0 , "Custome_id has null values, please check the data"
+    assert check_null==0 , "Custome_id has null values, please check the data report"
 
 def test_duplicate():
     df = pd.read_csv("Customer.csv")
